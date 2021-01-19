@@ -120,5 +120,8 @@
       }
     }
   },
-  "defaultProject": "learninginfocenter"
+  "defaultProject": "learninginfocenter",
+  "cli": {
+    "analytics": false
+  }
 }
