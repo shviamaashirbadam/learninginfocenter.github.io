@@ -10,3 +10,30 @@
     <option  *ngFor="let topping of toppingList"  [value]="topping">                   
                       
   </datalist> -->
+  <button mat-button [matMenuTriggerFor]="dataStructure">Data Structure</button>
+<!-- #docregion menu-position -->
+<mat-menu #dataStructure="matMenu" yPosition="above">
+<!-- #enddocregion menu-position -->
+  <button mat-menu-item>Item 1</button>
+  <button mat-menu-item>Item 2</button>
+</mat-menu>
+
+<button mat-button [matMenuTriggerFor]="threejs">Three.js</button>
+<mat-menu #threejs="matMenu" yPosition="below">
+  <button mat-menu-item>Item 1</button>
+  <button mat-menu-item>Item 2</button>
+</mat-menu>
+
+<button mat-button [matMenuTriggerFor]="machineLearning" >Machine Learning</button>
+<mat-menu #machineLearning="matMenu" xPosition="before">
+  <button mat-menu-item>Item 1</button>
+  <button mat-menu-item>Item 2</button>
+</mat-menu>
+
+
+<button mat-button [matMenuTriggerFor]="dataAnalytics">Data Analytics</button>
+<mat-menu #dataAnalytics="matMenu" xPosition="after">
+  <button mat-menu-item>Item 1</button>
+  <button mat-menu-item>Item 2</button>
+</mat-menu>
+

@@ -64,6 +64,7 @@ import {MatTreeModule} from '@angular/material/tree';
 import {OverlayModule} from '@angular/cdk/overlay';
 import { Design1Component } from './3dmodels/design1/design1.component';
 import { GraphAlogrithmComponent } from './graph-alogrithm/graph-alogrithm.component';
+import { AlgorithmsComponent } from './algorithms/algorithms.component';
 
 
 @NgModule({
@@ -72,7 +73,8 @@ import { GraphAlogrithmComponent } from './graph-alogrithm/graph-alogrithm.compo
     HomeComponent,
     NavigationComponent,
     Design1Component,
-    GraphAlogrithmComponent
+    GraphAlogrithmComponent,
+    AlgorithmsComponent
   ],
   imports: [
     BrowserModule,
