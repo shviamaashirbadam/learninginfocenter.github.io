@@ -5,7 +5,9 @@ import { RouterModule, Routes } from '@angular/router';
 import { Design1Component } from './3dmodels/design1/design1.component';
 
 export const routes: Routes = [
-  {path:'', component:Design1Component}  
+  // {path:'', component:Design1Component}  
+
+  {path:'', component:HomeComponent}  
    
 ]
 @NgModule({
